@@ -18,6 +18,29 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Actor.h" />
+    <ClInclude Include="Floor.h" />
+    <ClInclude Include="Goal.h" />
+    <ClInclude Include="Monster.h" />
+    <ClInclude Include="Player.h" />
+    <ClInclude Include="State.h" />
+    <ClInclude Include="Transition.h" />
+    <ClInclude Include="Wall.h" />
+    <ClInclude Include="World.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Actor.cpp" />
+    <ClCompile Include="Floor.cpp" />
+    <ClCompile Include="Goal.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Monster.cpp" />
+    <ClCompile Include="Player.cpp" />
+    <ClCompile Include="State.cpp" />
+    <ClCompile Include="Transition.cpp" />
+    <ClCompile Include="Wall.cpp" />
+    <ClCompile Include="World.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
